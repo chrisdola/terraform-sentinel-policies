@@ -4,7 +4,7 @@
 # Import common-functions/tfconfig-functions/tfconfig-functions.sentinel
 # with alias "config"
 #import "tfconfig/v2"
-import "functions" as config
+import "common-functions" as config
 
 # List of disallowed data sources
 disallow_list = ["terraform_remote_state"]
